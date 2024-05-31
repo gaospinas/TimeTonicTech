@@ -8,8 +8,8 @@ import Foundation
 
 @MainActor
 class LoginViewModel: ObservableObject {
-    @Published var username: String = "android.developer@timetonic.com"
-    @Published var password: String = "Android.developer1"
+    @Published var username: String = ""
+    @Published var password: String = ""
     @Published var isLoggedIn: Bool = false
     @Published var showingAlert: Bool = false
     var incorrectCredentialMessage: String = "Username or password is incorrect"

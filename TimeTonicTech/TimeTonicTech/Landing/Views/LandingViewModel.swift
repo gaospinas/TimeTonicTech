@@ -23,7 +23,7 @@ class LandingViewModel: ObservableObject {
     func fetchBookList() async {
         let result = await landingDataSource.allBooks()
         if case .success(let success) = result {
-            // Filtrar libros que no son "contact books"
+        
             bookList = success.allBooks?.books?.filter { !($0.defaultTemplate?.contains("contact") ?? false) } ?? []
         }
     }

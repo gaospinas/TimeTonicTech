@@ -9,7 +9,8 @@ import SwiftUI
 
 struct PreferencesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("My name is Gustavo and I would like to be in the company with the aim of continuing to advance in my studies and knowledge in iOS")
+            .padding()
     }
 }
 

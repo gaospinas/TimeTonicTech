@@ -12,7 +12,7 @@ class LandingDataSource: LandingDataSourceProtocol {
     func allBooks() async -> Result<AllBooksModel, RequestError> {
         
         let req = "getAllBooks"
-        var values = self.getValues()
+        let values = self.getValues()
 
         guard let oU = values.oU, let sesskey = values.sesskey else {
             return .failure(.unauthorized)

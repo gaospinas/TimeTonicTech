@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C907DDFB2C09F8D100F1C0FD /* TimeTonicTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */; };
-		C907DDFD2C09F8D100F1C0FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DDFC2C09F8D100F1C0FD /* ContentView.swift */; };
 		C907DDFF2C09F8D300F1C0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */; };
 		C907DE022C09F8D300F1C0FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907DE012C09F8D300F1C0FD /* Preview Assets.xcassets */; };
 		C907DE0B2C09F92C00F1C0FD /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE0A2C09F92C00F1C0FD /* RequestError.swift */; };
-		C907DE0E2C09F96D00F1C0FD /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE0D2C09F96D00F1C0FD /* AppContext.swift */; };
 		C907DE132C09F9E600F1C0FD /* AppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE122C09F9E600F1C0FD /* AppKeyModel.swift */; };
 		C907DE152C09F9FF00F1C0FD /* UserLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE142C09F9FF00F1C0FD /* UserLoginModel.swift */; };
 		C907DE172C09FA2D00F1C0FD /* CreateSesskey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE162C09FA2D00F1C0FD /* CreateSesskey.swift */; };
@@ -35,11 +33,9 @@
 /* Begin PBXFileReference section */
 		C907DDF72C09F8D100F1C0FD /* TimeTonicTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTonicTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTonicTechApp.swift; sourceTree = "<group>"; };
-		C907DDFC2C09F8D100F1C0FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C907DE012C09F8D300F1C0FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C907DE0A2C09F92C00F1C0FD /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
-		C907DE0D2C09F96D00F1C0FD /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 		C907DE122C09F9E600F1C0FD /* AppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeyModel.swift; sourceTree = "<group>"; };
 		C907DE142C09F9FF00F1C0FD /* UserLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModel.swift; sourceTree = "<group>"; };
 		C907DE162C09FA2D00F1C0FD /* CreateSesskey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSesskey.swift; sourceTree = "<group>"; };
@@ -95,7 +91,6 @@
 				C907DE232C09FB0700F1C0FD /* MainTab */,
 				C907DE2F2C09FBA800F1C0FD /* Landing */,
 				C907DE2B2C09FB7200F1C0FD /* Preferences */,
-				C907DDFC2C09F8D100F1C0FD /* ContentView.swift */,
 				C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */,
 				C907DE002C09F8D300F1C0FD /* Preview Content */,
 			);
@@ -130,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */,
-				C907DE0D2C09F96D00F1C0FD /* AppContext.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -314,11 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C907DDFD2C09F8D100F1C0FD /* ContentView.swift in Sources */,
 				C907DE222C09FAF100F1C0FD /* LoginHeaderView.swift in Sources */,
 				C907DE172C09FA2D00F1C0FD /* CreateSesskey.swift in Sources */,
 				C907DE202C09FAD400F1C0FD /* LoginViewModel.swift in Sources */,
-				C907DE0E2C09F96D00F1C0FD /* AppContext.swift in Sources */,
 				C907DE132C09F9E600F1C0FD /* AppKeyModel.swift in Sources */,
 				C907DE192C09FA5700F1C0FD /* LoginDataSource.swift in Sources */,
 				C907DDFB2C09F8D100F1C0FD /* TimeTonicTechApp.swift in Sources */,
