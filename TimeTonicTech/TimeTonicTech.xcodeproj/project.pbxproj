@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C907DDFB2C09F8D100F1C0FD /* TimeTonicTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */; };
+		C907DDFD2C09F8D100F1C0FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DDFC2C09F8D100F1C0FD /* ContentView.swift */; };
+		C907DDFF2C09F8D300F1C0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */; };
+		C907DE022C09F8D300F1C0FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907DE012C09F8D300F1C0FD /* Preview Assets.xcassets */; };
+		C907DE0B2C09F92C00F1C0FD /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE0A2C09F92C00F1C0FD /* RequestError.swift */; };
+		C907DE0E2C09F96D00F1C0FD /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE0D2C09F96D00F1C0FD /* AppContext.swift */; };
+		C907DE132C09F9E600F1C0FD /* AppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE122C09F9E600F1C0FD /* AppKeyModel.swift */; };
+		C907DE152C09F9FF00F1C0FD /* UserLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE142C09F9FF00F1C0FD /* UserLoginModel.swift */; };
+		C907DE172C09FA2D00F1C0FD /* CreateSesskey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE162C09FA2D00F1C0FD /* CreateSesskey.swift */; };
+		C907DE192C09FA5700F1C0FD /* LoginDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE182C09FA5700F1C0FD /* LoginDataSource.swift */; };
+		C907DE1B2C09FA7D00F1C0FD /* LoginDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE1A2C09FA7D00F1C0FD /* LoginDataSourceProtocol.swift */; };
+		C907DE1E2C09FAB900F1C0FD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE1D2C09FAB900F1C0FD /* LoginView.swift */; };
+		C907DE202C09FAD400F1C0FD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE1F2C09FAD400F1C0FD /* LoginViewModel.swift */; };
+		C907DE222C09FAF100F1C0FD /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE212C09FAF100F1C0FD /* LoginHeaderView.swift */; };
+		C907DE262C09FB2600F1C0FD /* MainTabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE252C09FB2600F1C0FD /* MainTabViews.swift */; };
+		C907DE282C09FB4200F1C0FD /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE272C09FB4200F1C0FD /* TabbedItems.swift */; };
+		C907DE2A2C09FB5A00F1C0FD /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE292C09FB5A00F1C0FD /* MainTabViewModel.swift */; };
+		C907DE2E2C09FB9200F1C0FD /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE2D2C09FB9200F1C0FD /* PreferencesView.swift */; };
+		C907DE332C09FBD300F1C0FD /* AllBooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE322C09FBD300F1C0FD /* AllBooksModel.swift */; };
+		C907DE352C09FBEF00F1C0FD /* LandingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE342C09FBEF00F1C0FD /* LandingDataSource.swift */; };
+		C907DE372C09FC0D00F1C0FD /* LandingDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE362C09FC0D00F1C0FD /* LandingDataSourceProtocol.swift */; };
+		C907DE3A2C09FC3C00F1C0FD /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE392C09FC3C00F1C0FD /* LandingView.swift */; };
+		C907DE3C2C09FC5E00F1C0FD /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907DE3B2C09FC5E00F1C0FD /* LandingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C907DDF72C09F8D100F1C0FD /* TimeTonicTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTonicTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTonicTechApp.swift; sourceTree = "<group>"; };
+		C907DDFC2C09F8D100F1C0FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C907DE012C09F8D300F1C0FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C907DE0A2C09F92C00F1C0FD /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		C907DE0D2C09F96D00F1C0FD /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		C907DE122C09F9E600F1C0FD /* AppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeyModel.swift; sourceTree = "<group>"; };
+		C907DE142C09F9FF00F1C0FD /* UserLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModel.swift; sourceTree = "<group>"; };
+		C907DE162C09FA2D00F1C0FD /* CreateSesskey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSesskey.swift; sourceTree = "<group>"; };
+		C907DE182C09FA5700F1C0FD /* LoginDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataSource.swift; sourceTree = "<group>"; };
+		C907DE1A2C09FA7D00F1C0FD /* LoginDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataSourceProtocol.swift; sourceTree = "<group>"; };
+		C907DE1D2C09FAB900F1C0FD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C907DE1F2C09FAD400F1C0FD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C907DE212C09FAF100F1C0FD /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		C907DE252C09FB2600F1C0FD /* MainTabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViews.swift; sourceTree = "<group>"; };
+		C907DE272C09FB4200F1C0FD /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
+		C907DE292C09FB5A00F1C0FD /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		C907DE2D2C09FB9200F1C0FD /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		C907DE322C09FBD300F1C0FD /* AllBooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBooksModel.swift; sourceTree = "<group>"; };
+		C907DE342C09FBEF00F1C0FD /* LandingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingDataSource.swift; sourceTree = "<group>"; };
+		C907DE362C09FC0D00F1C0FD /* LandingDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingDataSourceProtocol.swift; sourceTree = "<group>"; };
+		C907DE392C09FC3C00F1C0FD /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		C907DE3B2C09FC5E00F1C0FD /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C907DDF42C09F8D100F1C0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C907DDEE2C09F8D100F1C0FD = {
+			isa = PBXGroup;
+			children = (
+				C907DDF92C09F8D100F1C0FD /* TimeTonicTech */,
+				C907DDF82C09F8D100F1C0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C907DDF82C09F8D100F1C0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C907DDF72C09F8D100F1C0FD /* TimeTonicTech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C907DDF92C09F8D100F1C0FD /* TimeTonicTech */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE082C09F90A00F1C0FD /* Shared */,
+				C907DE0C2C09F94A00F1C0FD /* Main */,
+				C907DE0F2C09F9BA00F1C0FD /* Login */,
+				C907DE232C09FB0700F1C0FD /* MainTab */,
+				C907DE2F2C09FBA800F1C0FD /* Landing */,
+				C907DE2B2C09FB7200F1C0FD /* Preferences */,
+				C907DDFC2C09F8D100F1C0FD /* ContentView.swift */,
+				C907DDFE2C09F8D300F1C0FD /* Assets.xcassets */,
+				C907DE002C09F8D300F1C0FD /* Preview Content */,
+			);
+			path = TimeTonicTech;
+			sourceTree = "<group>";
+		};
+		C907DE002C09F8D300F1C0FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE012C09F8D300F1C0FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C907DE082C09F90A00F1C0FD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE092C09F91300F1C0FD /* Errors */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C907DE092C09F91300F1C0FD /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE0A2C09F92C00F1C0FD /* RequestError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C907DE0C2C09F94A00F1C0FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C907DDFA2C09F8D100F1C0FD /* TimeTonicTechApp.swift */,
+				C907DE0D2C09F96D00F1C0FD /* AppContext.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C907DE0F2C09F9BA00F1C0FD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE1C2C09FA9E00F1C0FD /* Views */,
+				C907DE102C09F9C400F1C0FD /* DataSource */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C907DE102C09F9C400F1C0FD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE112C09F9D500F1C0FD /* Models */,
+				C907DE182C09FA5700F1C0FD /* LoginDataSource.swift */,
+				C907DE1A2C09FA7D00F1C0FD /* LoginDataSourceProtocol.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		C907DE112C09F9D500F1C0FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE122C09F9E600F1C0FD /* AppKeyModel.swift */,
+				C907DE142C09F9FF00F1C0FD /* UserLoginModel.swift */,
+				C907DE162C09FA2D00F1C0FD /* CreateSesskey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C907DE1C2C09FA9E00F1C0FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE1D2C09FAB900F1C0FD /* LoginView.swift */,
+				C907DE1F2C09FAD400F1C0FD /* LoginViewModel.swift */,
+				C907DE212C09FAF100F1C0FD /* LoginHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C907DE232C09FB0700F1C0FD /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE242C09FB1300F1C0FD /* Views */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		C907DE242C09FB1300F1C0FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE252C09FB2600F1C0FD /* MainTabViews.swift */,
+				C907DE272C09FB4200F1C0FD /* TabbedItems.swift */,
+				C907DE292C09FB5A00F1C0FD /* MainTabViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C907DE2B2C09FB7200F1C0FD /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE2C2C09FB7E00F1C0FD /* Views */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		C907DE2C2C09FB7E00F1C0FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE2D2C09FB9200F1C0FD /* PreferencesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C907DE2F2C09FBA800F1C0FD /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE382C09FC2C00F1C0FD /* Views */,
+				C907DE302C09FBB100F1C0FD /* DataSource */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		C907DE302C09FBB100F1C0FD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE312C09FBBC00F1C0FD /* Models */,
+				C907DE342C09FBEF00F1C0FD /* LandingDataSource.swift */,
+				C907DE362C09FC0D00F1C0FD /* LandingDataSourceProtocol.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		C907DE312C09FBBC00F1C0FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE322C09FBD300F1C0FD /* AllBooksModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C907DE382C09FC2C00F1C0FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C907DE392C09FC3C00F1C0FD /* LandingView.swift */,
+				C907DE3B2C09FC5E00F1C0FD /* LandingViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C907DDF62C09F8D100F1C0FD /* TimeTonicTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C907DE052C09F8D300F1C0FD /* Build configuration list for PBXNativeTarget "TimeTonicTech" */;
+			buildPhases = (
+				C907DDF32C09F8D100F1C0FD /* Sources */,
+				C907DDF42C09F8D100F1C0FD /* Frameworks */,
+				C907DDF52C09F8D100F1C0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTonicTech;
+			productName = TimeTonicTech;
+			productReference = C907DDF72C09F8D100F1C0FD /* TimeTonicTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C907DDEF2C09F8D100F1C0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C907DDF62C09F8D100F1C0FD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C907DDF22C09F8D100F1C0FD /* Build configuration list for PBXProject "TimeTonicTech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C907DDEE2C09F8D100F1C0FD;
+			productRefGroup = C907DDF82C09F8D100F1C0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C907DDF62C09F8D100F1C0FD /* TimeTonicTech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C907DDF52C09F8D100F1C0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907DE022C09F8D300F1C0FD /* Preview Assets.xcassets in Resources */,
+				C907DDFF2C09F8D300F1C0FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C907DDF32C09F8D100F1C0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907DDFD2C09F8D100F1C0FD /* ContentView.swift in Sources */,
+				C907DE222C09FAF100F1C0FD /* LoginHeaderView.swift in Sources */,
+				C907DE172C09FA2D00F1C0FD /* CreateSesskey.swift in Sources */,
+				C907DE202C09FAD400F1C0FD /* LoginViewModel.swift in Sources */,
+				C907DE0E2C09F96D00F1C0FD /* AppContext.swift in Sources */,
+				C907DE132C09F9E600F1C0FD /* AppKeyModel.swift in Sources */,
+				C907DE192C09FA5700F1C0FD /* LoginDataSource.swift in Sources */,
+				C907DDFB2C09F8D100F1C0FD /* TimeTonicTechApp.swift in Sources */,
+				C907DE152C09F9FF00F1C0FD /* UserLoginModel.swift in Sources */,
+				C907DE332C09FBD300F1C0FD /* AllBooksModel.swift in Sources */,
+				C907DE262C09FB2600F1C0FD /* MainTabViews.swift in Sources */,
+				C907DE1B2C09FA7D00F1C0FD /* LoginDataSourceProtocol.swift in Sources */,
+				C907DE2A2C09FB5A00F1C0FD /* MainTabViewModel.swift in Sources */,
+				C907DE1E2C09FAB900F1C0FD /* LoginView.swift in Sources */,
+				C907DE352C09FBEF00F1C0FD /* LandingDataSource.swift in Sources */,
+				C907DE2E2C09FB9200F1C0FD /* PreferencesView.swift in Sources */,
+				C907DE3A2C09FC3C00F1C0FD /* LandingView.swift in Sources */,
+				C907DE282C09FB4200F1C0FD /* TabbedItems.swift in Sources */,
+				C907DE372C09FC0D00F1C0FD /* LandingDataSourceProtocol.swift in Sources */,
+				C907DE3C2C09FC5E00F1C0FD /* LandingViewModel.swift in Sources */,
+				C907DE0B2C09F92C00F1C0FD /* RequestError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C907DE032C09F8D300F1C0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C907DE042C09F8D300F1C0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C907DE062C09F8D300F1C0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTonicTech/Preview Content\"";
+				DEVELOPMENT_TEAM = J337R874T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gaospinas.TimeTonicTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C907DE072C09F8D300F1C0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTonicTech/Preview Content\"";
+				DEVELOPMENT_TEAM = J337R874T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gaospinas.TimeTonicTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C907DDF22C09F8D100F1C0FD /* Build configuration list for PBXProject "TimeTonicTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907DE032C09F8D300F1C0FD /* Debug */,
+				C907DE042C09F8D300F1C0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C907DE052C09F8D300F1C0FD /* Build configuration list for PBXNativeTarget "TimeTonicTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907DE062C09F8D300F1C0FD /* Debug */,
+				C907DE072C09F8D300F1C0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C907DDEF2C09F8D100F1C0FD /* Project object */;
+}
